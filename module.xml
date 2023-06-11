@@ -10,14 +10,14 @@
       <CSPApplication
         Url="/_vscode"
         SourcePath="/src/csp"
-        DeployPath="${installdir}.vscode"
+        DeployPath="{$cspdir}/../.vscode"
         Description="Storage for VS Code namespace-specific settings, snippets, debug configurations etc."
-        Namespace="%SYS"
         PasswordAuthEnabled="1"
+        ServeFiles="1"
         UnauthenticatedEnabled="0"
         AutoCompile="0"
         Recurse="1"
-       />
+      />
     </Module>    
   </Document>
 </Export>

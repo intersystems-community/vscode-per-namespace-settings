@@ -4,5 +4,7 @@
     zn "USER"
     zpm "install passwordless"
 
+    zn "%SYS"
     zpm "load /home/irisowner/dev/ -dev -v":1:1
+
     halt
