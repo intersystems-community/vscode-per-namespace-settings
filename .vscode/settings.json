@@ -1,6 +1,5 @@
 {
     "files.associations": {
-    
         "Dockerfile*": "dockerfile",
       },
     "objectscript.conn" :{
@@ -11,8 +10,4 @@
         "internalPort": 52773
       }
     },
-    "objectscript.conn.active": true,
-    
-  
-
 }

@@ -1,1 +1,5 @@
 *.sh eol=lf
+*.cls text eol=lf
+*.mac text eol=lf
+*.int text eol=lf
+Dockerfil* text eol=lf
