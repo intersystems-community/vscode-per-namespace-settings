@@ -2,9 +2,12 @@
     Do ##class(Security.Users).UnExpireUserPasswords("*")
 
     zn "USER"
+
+    ; For convenience
     zpm "install passwordless"
 
-    zn "%SYS"
+    ; Done from USER to simulate a user installing it from any namespace
+    ; even though the webapp we create must be a %SYS one.
     zpm "load /home/irisowner/dev/ -dev -v":1:1
 
     halt
