@@ -1,0 +1,17 @@
+{
+    // Open most %SYS items read-only
+    "files.readonlyInclude": {
+        "**/*": true
+    },
+    // Allow editing of unreserved names (see https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=RCOS_appx_identifiers#RCOS_appx_identifiers_irissys)
+    // Do not remove the .vscode entry below, else you won't be able to edit this file again through VS Code
+    "files.readonlyExclude": {
+        ".vscode/*": true,
+        "%Z?/**": true,
+        "%Z[!E][!N]*/**": true,
+        "%z*/**": true,
+        "%Z/**": true,
+        "z*/**": true,
+        "Z*/**": true
+    }
+}
